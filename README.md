@@ -108,7 +108,10 @@
 - 15.二维数组查找一个值。
 
 ## iOS 内存管理
-- 1.讲一下 `iOS` 内存管理的理解？(三种方案的结合) - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/1.第一题.md)
+- 1.讲一下 `iOS` 内存管理的理解？(三种方案的结合) - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/1.第一题.md) [链接](https://www.jianshu.com/p/940942c54866) [GC垃圾回收](https://blog.csdn.net/qq_36652619/article/details/90645422) 
+[iOS Tagged Pointer](https://blog.csdn.net/qq_33314190/article/details/88787083) 
+[iOS NONPOINTER_ISA](https://www.jianshu.com/p/9859c7fd6bb6) 
+[iOS SideTables](https://blog.csdn.net/u013378438/article/details/82790332) 
 - 2.使用自动引用计（`ARC`）数应该遵循的原则? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/2.第二题.md)
 - 3.`ARC` 自动内存管理的原则？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/3.第三题.md)
 - 4.访问 `__weak` 修饰的变量，是否已经被注册在了 `@autoreleasePool` 中？为什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/4.第四题.md)
