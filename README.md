@@ -108,13 +108,13 @@
 - 15.二维数组查找一个值。
 
 ## iOS 内存管理
-- 1.讲一下 `iOS` 内存管理的理解？(三种方案的结合) - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/1.第一题.md) [链接](https://www.jianshu.com/p/940942c54866) [GC垃圾回收](https://blog.csdn.net/qq_36652619/article/details/90645422) 
+* [x] 1.讲一下 `iOS` 内存管理的理解？(三种方案的结合) - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/1.第一题.md) [链接](https://www.jianshu.com/p/940942c54866) [GC垃圾回收](https://blog.csdn.net/qq_36652619/article/details/90645422) 
 [iOS Tagged Pointer](https://blog.csdn.net/qq_33314190/article/details/88787083) 
 [iOS NONPOINTER_ISA](https://www.jianshu.com/p/9859c7fd6bb6) 
-[iOS SideTables](https://blog.csdn.net/u013378438/article/details/82790332) 
-- 2.使用自动引用计（`ARC`）数应该遵循的原则? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/2.第二题.md)
-- 3.`ARC` 自动内存管理的原则？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/3.第三题.md)
-- 4.访问 `__weak` 修饰的变量，是否已经被注册在了 `@autoreleasePool` 中？为什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/4.第四题.md)
+[iOS SideTables](https://blog.csdn.net/u013378438/article/details/82790332)  
+* [x] 2.使用自动引用计（`ARC`）数应该遵循的原则? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/2.第二题.md)
+* [x] 3.`ARC` 自动内存管理的原则？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/3.第三题.md)
+- [x] 4.访问 `__weak` 修饰的变量，是否已经被注册在了 `@autoreleasePool` 中？为什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/4.第四题.md)
 - 5.`ARC` 的 `retainCount` 怎么存储的？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/5.第五题.md)
 - 6.简要说一下 `@autoreleasePool` 的数据结构？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/6.第六题.md)
 - 7.`__weak` 和 `_Unsafe_Unretain` 的区别？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/7.第七题.md)
@@ -138,14 +138,14 @@
 
 
 ## Runtime
-- 实例对象的数据结构？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/1.第一题.md)
-- 类对象的数据结构？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/2.第二题.md)
-- 元类对象的数据结构? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/3.第三题.md)
-- Obj-C 对象、类的本质是通过什么数据结构实现的？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/25.第二十五题.md)
-- Obj-C 中的类信息存放在哪里？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/11.第十一题.md)
-- 一个 NSObject 对象占用多少内存空间？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/12.第十二题.md)
-- 说一下对 class_rw_t 结构体的理解？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/13.第十三题.md)
-- 说一下对 class_ro_t 的理解？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/14.第十四题.md)
+- [x] 实例对象的数据结构？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/1.第一题.md)
+- [x] 类对象的数据结构？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/2.第二题.md)
+- [x] 元类对象的数据结构? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/3.第三题.md)
+- [x] Obj-C 对象、类的本质是通过什么数据结构实现的？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/25.第二十五题.md)
+- Obj-C 中的类信息存放在哪里？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/11.第十一题.md) 
+- [x] 一个 NSObject 对象占用多少内存空间？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/12.第十二题.md) [NSObject 底层本质](https://www.jianshu.com/p/49947a53c4ed)
+- [x] 说一下对 class_rw_t 结构体的理解？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/13.第十三题.md)
+- [x] 说一下对 class_ro_t 的理解？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/14.第十四题.md)
 - Category 的实现原理？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/4.第四题.md)
 - 如何给 Category 添加属性？关联对象以什么形式进行存储？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/5.第五题.md)
 - Category 有哪些用途？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/6.第六题.md)
@@ -167,10 +167,11 @@
 
 
 ## Runloop
-- 1.`Runloop` 和线程的关系？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/1.第一题.md)
-- 2.讲一下 `Runloop` 的 `Mode`?(越详细越好)  - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/2.第二题.md)
+- [x] 1.`Runloop` 和线程的关系？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/1.第一题.md)
+- [x] 2.讲一下 `Runloop` 的 `Mode`?(越详细越好)  - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/2.第二题.md)
 - 3.讲一下 `Observer` ？（Mode中的重点） - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/3.第三题.md)
-- 4.讲一下 `Runloop` 的内部实现逻辑？（运行过程） - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/4.第四题.md)
+- [x] 4.讲一下 `Runloop` 的内部实现逻辑？（运行过程） - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/4.第四题.md) [Runloop的深入浅出](https://blog.csdn.net/horisea/article/details/80111770?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.add_param_isCf&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.add_param_isCf)
+
 - 5.你所知的哪些三方框架使用了 `Runloop`?（AFNetworking、Texture 等）
 - 6.`autoreleasePool` 在何时被释放？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/6.第六题.md)
 - 7.解释一下 `事件响应` 的过程？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/7.第七题.md)
@@ -189,7 +190,7 @@
 
 ## UIKit
 
-- 1.`UIView` 和 `CALayer` 是什么关系？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/1.第一题.md)
+* 1.`UIView` 和 `CALayer` 是什么关系？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/1.第一题.md)
 - 2.`Bounds` 和 `Frame` 的区别? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/2.第二题.md)
 - 3.`TableViewCell` 如何根据 `UILabel` 内容长度自动调整高度?
 - 4.`LoadView`方法了解吗？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/4.第四题.md)
