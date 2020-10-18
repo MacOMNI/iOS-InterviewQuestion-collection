@@ -14,7 +14,7 @@
 ## iOS-InterviewQuestion-collection（未完待续...）
 
 
-
+[面试总结](https://www.jianshu.com/p/3dd492862268)
 > 最近在准备面试，所以自己边复习边整理，列出了一些自己复习的知识点。
 > 
 > 后面的一些知识模块之所以没有延展开，是因为有的地方自己理解的还不到位，我还需要时间仔细整理。
@@ -115,20 +115,20 @@
 * [x] 2.使用自动引用计（`ARC`）数应该遵循的原则? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/2.第二题.md)
 * [x] 3.`ARC` 自动内存管理的原则？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/3.第三题.md)
 - [x] 4.访问 `__weak` 修饰的变量，是否已经被注册在了 `@autoreleasePool` 中？为什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/4.第四题.md)
-- 5.`ARC` 的 `retainCount` 怎么存储的？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/5.第五题.md)
-- 6.简要说一下 `@autoreleasePool` 的数据结构？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/6.第六题.md)
-- 7.`__weak` 和 `_Unsafe_Unretain` 的区别？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/7.第七题.md)
-- 8.为什么已经有了 `ARC` ,但还是需要 `@AutoreleasePool` 的存在？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/8.第八题.md)
-- 9.`__weak` 属性修饰的变量，如何实现在变量没有强引用后自动置为 `nil`？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/9.第九题.md)
+- [x]  5.`ARC` 的 `retainCount` 怎么存储的？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/5.第五题.md)
+- [x] 6.简要说一下 `@autoreleasePool` 的数据结构？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/6.第六题.md)[详解](http://www.cocoachina.com/cms/wap.php?action=article&id=87115)
+- [x] 7.`__weak` 和 `_Unsafe_Unretain` 的区别？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/7.第七题.md)
+- [x] 8.为什么已经有了 `ARC` ,但还是需要 `@AutoreleasePool` 的存在？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/8.第八题.md)
+- [x] 9.`__weak` 属性修饰的变量，如何实现在变量没有强引用后自动置为 `nil`？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/9.第九题.md)
 - 10.说一下对 `retain`,`copy`,`assign`,`weak`,`_Unsafe_Unretain` 关键字的理解。 - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/10.第十题.md)
-- 11.`ARC` 在编译时做了哪些工作？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/11.第十一题.md)
-- 12.`ARC` 在运行时做了哪些工作？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/12.第十二题.md)
+- [x]  11.`ARC` 在编译时做了哪些工作？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/11.第十一题.md) [APP的启动流程和生命周期](https://www.jianshu.com/p/229dd6190b95) [iOS启动时间优化](http://www.cocoachina.com/articles/24423)
+- [x]  12.`ARC` 在运行时做了哪些工作？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/12.第十二题.md)
 - 13.函数返回一个对象时，会对对象 `autorelease` 么？为什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/13.第十三题.md)
-- 14.说一下什么是 `悬垂指针`？什么是 `野指针`? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/14.第十四题.md)
-- 15.内存管理默认的关键字是什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/15.第十五题.md)
+- [x] 14.说一下什么是 `悬垂指针`？什么是 `野指针`? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/14.第十四题.md)
+- [x] 15.内存管理默认的关键字是什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/15.第十五题.md)
 - 16.内存中的5大区分别是什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/16.第十六题.md)
 - 17.是否了解 `深拷贝` 和 `浅拷贝` 的概念，集合类深拷贝如何实现？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/17.第十七题.md)
-- 18.`BAD_ACCESS` 在什么情况下出现? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/18.第十八题.md)
+- [x] 18.`BAD_ACCESS` 在什么情况下出现? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/18.第十八题.md)
 - 19.讲一下 `@dynamic` 关键字？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/19.第十九题.md)
 - 20.`@autoreleasrPool` 的释放时机？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/20.第二十题.md)
 - 21.`retain`、`release` 的实现机制？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/21.第二十一题.md)
@@ -173,10 +173,10 @@
 - [x] 4.讲一下 `Runloop` 的内部实现逻辑？（运行过程） - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/4.第四题.md) [Runloop的深入浅出](https://blog.csdn.net/horisea/article/details/80111770?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.add_param_isCf&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.add_param_isCf)
 
 - 5.你所知的哪些三方框架使用了 `Runloop`?（AFNetworking、Texture 等）
-- 6.`autoreleasePool` 在何时被释放？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/6.第六题.md)
-- 7.解释一下 `事件响应` 的过程？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/7.第七题.md)
-- 8.解释一下 `手势识别` 的过程？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/8.第八题.md)
-- 9.解释一下 `GCD` 在 `Runloop` 中的使用？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/9.第九题.md)
+- [x] 6.`autoreleasePool` 在何时被释放？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/6.第六题.md) 
+- [x] 7.解释一下 `事件响应` 的过程？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/7.第七题.md)
+- [x] 8.解释一下 `手势识别` 的过程？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/8.第八题.md)
+- [x] 9.解释一下 `GCD` 在 `Runloop` 中的使用？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/9.第九题.md) [RunLoop与线程与GCD的关系](https://www.jianshu.com/p/207de95122d6) [iOS libdispatch浅析](https://www.jianshu.com/p/b99f6a2e3b78)
 - 10.解释一下 `NSTimer`，以及 `NSTimer` 的循环引用。 - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/10.第十题.md)
 - 11.`AFNetworking` 中如何运用 `Runloop`? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/11.第十一题.md)
 - 12.`PerformSelector` 的实现原理？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/12.第十二题.md)
@@ -190,13 +190,13 @@
 
 ## UIKit
 
-* 1.`UIView` 和 `CALayer` 是什么关系？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/1.第一题.md)
-- 2.`Bounds` 和 `Frame` 的区别? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/2.第二题.md)
-- 3.`TableViewCell` 如何根据 `UILabel` 内容长度自动调整高度?
+- [x] 1.`UIView` 和 `CALayer` 是什么关系？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/1.第一题.md)
+- [x] 2.`Bounds` 和 `Frame` 的区别? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/2.第二题.md) [frame和bounds的区别](https://www.jianshu.com/p/964313cfbdaa)
+- [x] 3.`TableViewCell` 如何根据 `UILabel` 内容长度自动调整高度? [SnapKit 和 Masonry 自动布局框架源码](http://www.starming.com/2018/04/07/read-snapkit-and-masonry-source-code/)
 - 4.`LoadView`方法了解吗？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/4.第四题.md)
-- 5.`UIButton` 的父类是什么？`UILabel` 的父类又是什么？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/5.第五题.md)
+- [x] 5.`UIButton` 的父类是什么？`UILabel` 的父类又是什么？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/5.第五题.md)
 - 6.实现一个控件，可以浮在任意界面的上层并支持拖动？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/6.第六题.md)
-- 7.说一下控制器 `View` 的生命周期，一旦收到内存警告会如何处理？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/7.第七题.md)
+- [x] 7.说一下控制器 `View` 的生命周期，一旦收到内存警告会如何处理？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/7.第七题.md) [控制器View的生命周期](https://blog.csdn.net/superyuan567/article/details/104259456)
 - 8.如何暂停一个 `UIView` 中正在播放的动画？暂停后如何恢复？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/8.第八题.md)
 - 9.说一下 `UIView` 的生命周期？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/9.第九题.md)
 - 10.`UIViewController` 的生命周期？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/UIKit/10.第十题.md)
