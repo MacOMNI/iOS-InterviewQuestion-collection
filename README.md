@@ -108,12 +108,12 @@
 - 15.二维数组查找一个值。
 
 ## iOS 内存管理
-* [x] 1.讲一下 `iOS` 内存管理的理解？(三种方案的结合) - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/1.第一题.md) [链接](https://www.jianshu.com/p/940942c54866) [GC垃圾回收](https://blog.csdn.net/qq_36652619/article/details/90645422) 
+- [x] 1.讲一下 `iOS` 内存管理的理解？(三种方案的结合) - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/1.第一题.md) [链接](https://www.jianshu.com/p/940942c54866) [GC垃圾回收](https://blog.csdn.net/qq_36652619/article/details/90645422) 
 [iOS Tagged Pointer](https://blog.csdn.net/qq_33314190/article/details/88787083) 
 [iOS NONPOINTER_ISA](https://www.jianshu.com/p/9859c7fd6bb6) 
 [iOS SideTables](https://blog.csdn.net/u013378438/article/details/82790332)  
-* [x] 2.使用自动引用计（`ARC`）数应该遵循的原则? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/2.第二题.md)
-* [x] 3.`ARC` 自动内存管理的原则？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/3.第三题.md)
+- [x] 2.使用自动引用计（`ARC`）数应该遵循的原则? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/2.第二题.md)
+- [x] 3.`ARC` 自动内存管理的原则？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/3.第三题.md)
 - [x] 4.访问 `__weak` 修饰的变量，是否已经被注册在了 `@autoreleasePool` 中？为什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/4.第四题.md)
 - [x]  5.`ARC` 的 `retainCount` 怎么存储的？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/5.第五题.md)
 - [x] 6.简要说一下 `@autoreleasePool` 的数据结构？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/6.第六题.md)[详解](http://www.cocoachina.com/cms/wap.php?action=article&id=87115)
@@ -146,11 +146,11 @@
 - [x] 一个 NSObject 对象占用多少内存空间？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/12.第十二题.md) [NSObject 底层本质](https://www.jianshu.com/p/49947a53c4ed)
 - [x] 说一下对 class_rw_t 结构体的理解？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/13.第十三题.md)
 - [x] 说一下对 class_ro_t 的理解？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/14.第十四题.md)
-- Category 的实现原理？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/4.第四题.md)
-- 如何给 Category 添加属性？关联对象以什么形式进行存储？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/5.第五题.md)
+- [x] Category 的实现原理？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/4.第四题.md)
+- [x] 如何给 Category 添加属性？关联对象以什么形式进行存储？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/5.第五题.md)
 - Category 有哪些用途？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/6.第六题.md)
-- Category 和 Class Extension 有什么区别？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/7.第七题.md)
-- Category 可不可以添加实例对象？为什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/24.第二十四题.md)
+- [x] Category 和 Class Extension 有什么区别？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/7.第七题.md)
+- [x] Category 可不可以添加实例对象？为什么？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/24.第二十四题.md)
 - Category 在编译过后，是在什么时机与原有的类合并到一起的？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/26.第二十六题.md)
 - 说一下 Method Swizzling? 说一下在实际开发中你在什么场景下使用过? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/8.第八题.md)
 - Runtime 如何实现动态添加方法和属性？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/9.第九题.md)
@@ -162,7 +162,7 @@
 - 在 Obj-C 中为什么叫发消息而不叫函数调用？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/19.第十九题.md)
 - 说一下 Runtime 的方法缓存？存储的形式、数据结构以及查找的过程？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/21.第二十一题.md)
 - 是否了解 Type Encoding? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/22.第二十二题.md)
-- Objective-C 如何实现多重继承？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/23.第二十三题.md)
+- [x] Objective-C 如何实现多重继承？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/23.第二十三题.md)
 
 
 
