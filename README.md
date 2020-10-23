@@ -427,6 +427,27 @@
 - 3.如何集成本地私有库？
 - 4.如何集成远程私有库？
 
+#### 组件化
+
+- [1.组件化有什么好处？](https://ios.nobady.cn/Component-based.html#_1-%E7%BB%84%E4%BB%B6%E5%8C%96%E6%9C%89%E4%BB%80%E4%B9%88%E5%A5%BD%E5%A4%84%EF%BC%9F)
+- [2.你是如何组件化解耦的？](https://ios.nobady.cn/Component-based.html#_2-%E4%BD%A0%E6%98%AF%E5%A6%82%E4%BD%95%E7%BB%84%E4%BB%B6%E5%8C%96%E8%A7%A3%E8%80%A6%E7%9A%84%EF%BC%9F)
+- [3.为什么CTMediator方案优于基于Router的方案？](https://ios.nobady.cn/Component-based.html#_3-%E4%B8%BA%E4%BB%80%E4%B9%88ctmediator%E6%96%B9%E6%A1%88%E4%BC%98%E4%BA%8E%E5%9F%BA%E4%BA%8Erouter%E7%9A%84%E6%96%B9%E6%A1%88%EF%BC%9F)
+- [4.基于CTMediator的组件化方案，有哪些核心组成？](https://ios.nobady.cn/Component-based.html#_3-%E4%B8%BA%E4%BB%80%E4%B9%88ctmediator%E6%96%B9%E6%A1%88%E4%BC%98%E4%BA%8E%E5%9F%BA%E4%BA%8Erouter%E7%9A%84%E6%96%B9%E6%A1%88%EF%BC%9F)
+#### 调试技巧
+
+- [1.LLDB常用的调试命令？](https://ios.nobady.cn/Debug-tips.html#_1-lldb%E5%B8%B8%E7%94%A8%E7%9A%84%E8%B0%83%E8%AF%95%E5%91%BD%E4%BB%A4%EF%BC%9F)
+- [2.断点调试](https://ios.nobady.cn/Debug-tips.html#_2-%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95)
+- [3.iOS 常见的崩溃类型有哪些？](https://ios.nobady.cn/Debug-tips.html#_3-ios-%E5%B8%B8%E8%A7%81%E7%9A%84%E5%B4%A9%E6%BA%83%E7%B1%BB%E5%9E%8B%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F)
+
+#### 性能优化
+
+- [1.造成tableView卡顿的原因有哪些？](https://ios.nobady.cn/Performance-optimization.html#_1-%E9%80%A0%E6%88%90tableview%E5%8D%A1%E9%A1%BF%E7%9A%84%E5%8E%9F%E5%9B%A0%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F)
+- [2.如何提升 tableview 的流畅度？](https://ios.nobady.cn/Performance-optimization.html#_2-%E5%A6%82%E4%BD%95%E6%8F%90%E5%8D%87-tableview-%E7%9A%84%E6%B5%81%E7%95%85%E5%BA%A6%EF%BC%9F)
+- [3.APP启动时间应从哪些方面优化？](https://ios.nobady.cn/Performance-optimization.html#_3-app%E5%90%AF%E5%8A%A8%E6%97%B6%E9%97%B4%E5%BA%94%E4%BB%8E%E5%93%AA%E4%BA%9B%E6%96%B9%E9%9D%A2%E4%BC%98%E5%8C%96%EF%BC%9F)
+- [4.如何降低APP包的大小](https://ios.nobady.cn/Performance-optimization.html#_4-%E5%A6%82%E4%BD%95%E9%99%8D%E4%BD%8Eapp%E5%8C%85%E7%9A%84%E5%A4%A7%E5%B0%8F)
+- [5.如何检测离屏渲染与优化](https://ios.nobady.cn/Performance-optimization.html#_5-%E5%A6%82%E4%BD%95%E6%A3%80%E6%B5%8B%E7%A6%BB%E5%B1%8F%E6%B8%B2%E6%9F%93%E4%B8%8E%E4%BC%98%E5%8C%96)
+- [6.日常如何检查内存泄露？](https://ios.nobady.cn/Performance-optimization.html#_6-%E6%97%A5%E5%B8%B8%E5%A6%82%E4%BD%95%E6%A3%80%E6%9F%A5%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2%EF%BC%9F)
+
 ## 性能优化
 - 1.如何提升 `tableview` 的流畅度？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/性能优化/1.第一题.md)
 - 2.如何使用 `Instruments` 进行性能调优？(Time Profiler、Zombies、Allocations、Leaks)
