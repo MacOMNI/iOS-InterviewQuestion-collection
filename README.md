@@ -177,15 +177,15 @@
 - [x] 7.解释一下 `事件响应` 的过程？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/7.第七题.md)
 - [x] 8.解释一下 `手势识别` 的过程？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/8.第八题.md)
 - [x] 9.解释一下 `GCD` 在 `Runloop` 中的使用？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/9.第九题.md) [RunLoop与线程与GCD的关系](https://www.jianshu.com/p/207de95122d6) [iOS libdispatch浅析](https://www.jianshu.com/p/b99f6a2e3b78)
-- [x] 10.解释一下 `NSTimer`，以及 `NSTimer` 的循环引用。 - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/10.第十题.md)
+- [x] 10.解释一下 `NSTimer`，以及 `NSTimer` 的循环引用。 - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/10.第十题.md) 
 - 11.`AFNetworking` 中如何运用 `Runloop`? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/11.第十一题.md)
-- 12.`PerformSelector` 的实现原理？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/12.第十二题.md)
-- 13.利用 `runloop` 解释一下页面的渲染的过程？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/13.第十三题.md)
-- 14.如何使用 `Runloop` 实现一个常驻线程？这种线程一般有什么作用？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/14.第十四题.md)
-- 15.为什么 `NSTimer` 有时候不好使？（不同类型的Mode）- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/15.第十五题.md)
-- 16.`PerformSelector:afterDelay:`这个方法在子线程中是否起作用？为什么？怎么解决？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/16.第十六题.md)
+- [x] 12.`PerformSelector` 的实现原理？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/12.第十二题.md) [performSelector的原理](https://www.jianshu.com/p/bc0c0d07414c)
+- [x] 13.利用 `runloop` 解释一下页面的渲染的过程？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/13.第十三题.md)
+- [x] 14.如何使用 `Runloop` 实现一个常驻线程？这种线程一般有什么作用？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/14.第十四题.md)
+- [x] 15.为什么 `NSTimer` 有时候不好使？（不同类型的Mode）- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/15.第十五题.md)
+- [x] 16.`PerformSelector:afterDelay:`这个方法在子线程中是否起作用？为什么？怎么解决？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/16.第十六题.md)
 - 17.什么是异步绘制？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/17.第十七题.md)
-- 18.如何检测 `App` 运行过程中是否卡顿？
+- 18.如何检测 `App` 运行过程中是否卡顿？[App卡顿检测及方案优化](https://www.jianshu.com/p/0426a00846de)
 
 
 ## UIKit
@@ -432,6 +432,7 @@
 - [x] [2.你是如何组件化解耦的？](https://ios.nobady.cn/Component-based.html#_2-%E4%BD%A0%E6%98%AF%E5%A6%82%E4%BD%95%E7%BB%84%E4%BB%B6%E5%8C%96%E8%A7%A3%E8%80%A6%E7%9A%84%EF%BC%9F)
 - [x] [3.为什么CTMediator方案优于基于Router的方案？](https://ios.nobady.cn/Component-based.html#_3-%E4%B8%BA%E4%BB%80%E4%B9%88ctmediator%E6%96%B9%E6%A1%88%E4%BC%98%E4%BA%8E%E5%9F%BA%E4%BA%8Erouter%E7%9A%84%E6%96%B9%E6%A1%88%EF%BC%9F)
 - [x] [4.基于CTMediator的组件化方案，有哪些核心组成？](https://ios.nobady.cn/Component-based.html#_3-%E4%B8%BA%E4%BB%80%E4%B9%88ctmediator%E6%96%B9%E6%A1%88%E4%BC%98%E4%BA%8E%E5%9F%BA%E4%BA%8Erouter%E7%9A%84%E6%96%B9%E6%A1%88%EF%BC%9F)
+- [ ] [iOS组件化（总结）](https://www.jianshu.com/p/12d69e64e8a0)
 #### 调试技巧
 
 - [x] [1.LLDB常用的调试命令？](https://ios.nobady.cn/Debug-tips.html#_1-lldb%E5%B8%B8%E7%94%A8%E7%9A%84%E8%B0%83%E8%AF%95%E5%91%BD%E4%BB%A4%EF%BC%9F)
