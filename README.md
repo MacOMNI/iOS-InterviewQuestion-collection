@@ -137,7 +137,6 @@
 - [x] 23.在 `MRC` 下如何重写属性的 `Setter` 和 `Getter`? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/23.第二十三题.md)
 - [x] 24.在 `Obj-C` 中，如何检测内存泄漏？你知道哪些方式？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/内存管理/24.第二十四题.md) [MLeaksFinder](http://wereadteam.github.io/2016/02/22/MLeaksFinder/)
 
-
 ## Runtime
 - [x] 实例对象的数据结构？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/1.第一题.md)
 - [x] 类对象的数据结构？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/2.第二题.md)
@@ -160,9 +159,9 @@
 - [x]  说一下 Runtime 消息转发。- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/15.第十五题.md)
 - [x] 如何运用 Runtime 字典转模型？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/17.第十七题.md)
 - [x] 如何运用 Runtime 进行模型的归解档？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/18.第十八题.md)
-- 在 Obj-C 中为什么叫发消息而不叫函数调用？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/19.第十九题.md)
-- 说一下 Runtime 的方法缓存？存储的形式、数据结构以及查找的过程？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/21.第二十一题.md)
-- 是否了解 Type Encoding? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/22.第二十二题.md)
+- [x] 在 Obj-C 中为什么叫发消息而不叫函数调用？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/19.第十九题.md) [objc_msgSend底层探索](https://www.jianshu.com/p/ea6dd5f360d9) [objc_msgSend()消息机制的完整过程](https://www.jianshu.com/p/0653af5d02ae)
+- [x] 说一下 Runtime 的方法缓存？存储的形式、数据结构以及查找的过程？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/21.第二十一题.md)
+- [x] 是否了解 Type Encoding? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/22.第二十二题.md)
 - [x] Objective-C 如何实现多重继承？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runtime/23.第二十三题.md)
 
 
@@ -178,7 +177,7 @@
 - [x] 7.解释一下 `事件响应` 的过程？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/7.第七题.md)
 - [x] 8.解释一下 `手势识别` 的过程？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/8.第八题.md)
 - [x] 9.解释一下 `GCD` 在 `Runloop` 中的使用？ - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/9.第九题.md) [RunLoop与线程与GCD的关系](https://www.jianshu.com/p/207de95122d6) [iOS libdispatch浅析](https://www.jianshu.com/p/b99f6a2e3b78)
-- 10.解释一下 `NSTimer`，以及 `NSTimer` 的循环引用。 - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/10.第十题.md)
+- [x] 10.解释一下 `NSTimer`，以及 `NSTimer` 的循环引用。 - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/10.第十题.md)
 - 11.`AFNetworking` 中如何运用 `Runloop`? - [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/11.第十一题.md)
 - 12.`PerformSelector` 的实现原理？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/12.第十二题.md)
 - 13.利用 `runloop` 解释一下页面的渲染的过程？- [链接](https://github.com/liberalisman/iOS-InterviewQuestion-collection/blob/master/Runloop/13.第十三题.md)
